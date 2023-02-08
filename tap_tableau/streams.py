@@ -853,7 +853,7 @@ class ColumnLineageMetadataStream(TableauMetadataStream):
                     th.ObjectType(
                         th.Property("name", th.StringType),
                         th.Property("id", th.StringType),
-                        th.Property("sheetFieldInstances", th.ArrayType(
+                        th.Property("upstreamFields", th.ArrayType(
                             th.ObjectType(
                                 th.Property("name", th.StringType),
                                 th.Property("id", th.StringType)
